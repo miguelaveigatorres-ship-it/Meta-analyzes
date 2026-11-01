@@ -1,0 +1,25 @@
+{
+  "name": "clash-meta-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for Clash Royale meta analysis and AI-guided game plans",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "clash-royale",
+    "discord",
+    "meta",
+    "ai"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  }
+}
